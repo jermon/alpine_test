@@ -8,16 +8,19 @@
  
       <span x-show="open">
        Content...
-     </span>
-  </div>
+      </span>
+    </div>
     
-  <ul x-data="{ people: ['chris', 'kap', 'lynne'] }">
-
-    <template x-for="person in people">
-      <li x-text="person"></li>
-    </template>
-
-  </ul>
-
+    <ul x-data="{ people: ['chris', 'kap', 'lynne'] }">
+      <template x-for="person in people">
+        <li x-text="person"></li>
+      </template>
+    </ul>
+    
+    <div x-data="{ message: 'this is a message' }">
+      <input x-model="message">
+      <p x-text="message"></p>
+    </div>
+    
   </body>
  </html>
