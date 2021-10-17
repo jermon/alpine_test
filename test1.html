@@ -10,5 +10,14 @@
        Content...
      </span>
   </div>
+    
+  <ul x-data="{ people: ['chris', 'kap', 'lynne'] }">
+
+    <template x-for="person in people">
+      <li x-text="person"></li>
+    </template>
+
+  </ul>
+
   </body>
  </html>
