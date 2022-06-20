@@ -38,3 +38,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### Test
 - [test1](test1.html)
+- [test2](test2.html)
+- [test3](test3.html)
