@@ -56,5 +56,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
       B-->D;
       C-->D;
       
-      class A cssClass
+      style A fill:#f9f,stroke:#333,stroke-width:4px
 ```
