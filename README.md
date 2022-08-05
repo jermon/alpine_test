@@ -41,10 +41,20 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 - [test2](test2.html)
 - [test3](test3.html)
 
+<style>
+    .cssClass > rect{
+        fill:#FF0000;
+        stroke:#FFFF00;
+        stroke-width:4px;
+    }
+</style>
+
 ```mermaid
   graph TD;
       A-->B;
       A-->C;
       B-->D;
       C-->D;
+      
+      class A cssClass
 ```
