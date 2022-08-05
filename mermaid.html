@@ -10,16 +10,10 @@
   </style>
   
   <div class="mermaid">
-    flowchart LR
-        A-->B
-        B-->C
-        C-->D
-        click A callback "Tooltip"
-        click B "https://www.github.com" "This is a link"
-        click C call callback() "Tooltip"
-        click D href "https://www.github.com" "This is a link"
-    
-        class A cssClass
+    flowchart LR;
+      A-->B[AAA<span>BBB</span>]
+      B-->D
+      class A cssClass
   </div>
 
   <script>
